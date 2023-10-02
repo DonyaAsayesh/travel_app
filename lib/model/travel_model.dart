@@ -1,11 +1,12 @@
-class TravelModel {
-  String? name;
-  String? location;
-  String? image;
-  String? distance;
-  String? temp;
-  String? rating;
-  String? description;
+class TravelModel  {
+  String name;
+  String location;
+  String image;
+  String distance;
+  String temp;
+  String rating;
+  String description;
+
   TravelModel({
     required this.name,
     required this.location,
@@ -15,6 +16,7 @@ class TravelModel {
     required this.rating,
     required this.description,
   });
+  
 }
 
 List<TravelModel> travelList = [
